@@ -6,7 +6,7 @@ function HomeScreen({ navigation }) {
   return (
     <View>
       <Button 
-        title="Vai para Todo list"
+        title="To-do list"
         onPress={ () => navigation.navigate('Todo') } />
     </View >
   );

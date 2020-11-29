@@ -3,9 +3,9 @@ import { FlatList, StyleSheet, View, Text, TouchableOpacity, TextInput } from 'r
 import Task from "../components/Task";
 
 const data = [
-    { id:1, title: 'Teste 1', feito: false},
-    { id:2, title: 'Teste 2', feito: false},
-    { id:3, title: 'Teste 3', feito: false},
+    { id:1, title: 'Task 1', feito: false},
+    { id:2, title: 'Task 2', feito: false},
+    { id:3, title: 'Task 3', feito: false},
   ]
 
 const TodoScreen  = () => {
@@ -79,15 +79,16 @@ const styles = StyleSheet.create({
         borderRadius: 10
       },
     tarefaFeita:{
-        backgroundColor: "grey",
+        backgroundColor: "mediumseagreen",
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        textDecorationLine: 'line-through', 
-        textDecorationStyle: 'solid'
+        textDecorationLine: "line-through", 
+        textDecorationStyle: "solid"
+        
     },
     tarefaNaoFeita:{
-        backgroundColor: "pink",
+        backgroundColor: "goldenrod",
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
